@@ -1,0 +1,36 @@
+/**index.wxss**/
+.container{
+  color: rgb(255, 0, 0);
+}
+.backgroundColor{
+  color: blue;
+  font-size: 50rpx;
+}
+.i1{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  width: 95%;
+  height: 400rpx;
+}
+.i2{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  width: 95%;
+  height: 400rpx;
+}
+.manualContainer{
+  position: relative;
+}
+.manualText{
+  position: absolute;
+  left: 50rpx;
+  right: 0;
+  top: 100rpx;
+  bottom: 0;
+  margin: auto;
+  font-size: 80rpx;
+  font-weight: bold;
+  color: whitesmoke;
+  display: block;
+  font-family: cursive;
+}

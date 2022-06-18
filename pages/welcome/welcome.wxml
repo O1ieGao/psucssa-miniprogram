@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="manualContainer">
+  <image src="../../images/welcome/manual2.png" class="i1" bindtap="clickOnManual"></image>
+  <view class="manualText">新生手册</view>
+</view>
+
+<!-- <image src="../../images/welcome/majorWiki2.png" class="i2" bindtap="clickOnMajorWiki"></image> -->
+<view class="container">
+  Weixin
+  <view class="backgroundColor">
+    PSUCSSA
+  </view>
+</view>
+
