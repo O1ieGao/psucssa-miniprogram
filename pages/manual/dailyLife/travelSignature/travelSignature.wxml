@@ -1,0 +1,60 @@
+<!--pages/manual/dailyLife/travelSignature/travelSignature.wxml-->
+<view class="headerContainer">
+  <image src="/images/color/red.png" class="headerImg"></image>
+  <text class="headerText">Travel Signiture</text>
+</view>
+<view class="textContainer">
+  <text class="textParagraph">
+    假期准备回国的小伙伴们不要忘记I-20上的travel signature的有效期是一年，如果你假期结束后入境时的日期在最后一次travel signature后一年以上，那么你就需要在走之前再去签一个新的啦！下面是获得签字的具体流程。
+    
+    <text class="textSubHeader1">
+      第一步
+    </text>
+
+    https://istart.gp.psu.edu
+
+
+  </text>
+  <image src="/images/manual/dailyLife/travelSignature/iStart1.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    <text class="textSubHeader1">
+      第二步
+    </text>
+
+    选择 “other request”
+
+  </text>
+  <image src="/images/manual/dailyLife/travelSignature/iStart2.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    <text class="textSubHeader1">
+      第三步
+    </text>
+
+    选择“travel signature”
+
+  </text>
+  <image src="/images/manual/dailyLife/travelSignature/iStart3.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+  </text>
+  <image src="/images/manual/dailyLife/travelSignature/iStart4.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    <text class="textSubHeader1">
+      最后
+    </text>
+
+    填完i-start表格后大概两个工作日之后，你会收到一封confirmation letter. 把这封email打印出来，带着I-20就可以去签字啦！（walk-in hour去的话，可以当时取走哦！）
+
+  </text>
+  <image src="/images/manual/dailyLife/travelSignature/iStart5.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    本章特别鸣谢林博渊
+
+
+    
+  </text>
+</view>

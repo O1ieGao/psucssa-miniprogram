@@ -1,0 +1,334 @@
+<!--pages/manual/dailyLife/freeVPN/freeVPN.wxml-->
+<view class="headerContainer">
+  <image src="/images/color/red.png" class="headerImg"></image>
+  <text class="headerText">FreeVPN@PSU</text>
+</view>
+<view class="textContainer">
+  <text class="textParagraph">
+
+    回国的小伙伴们常常为了收发PSU邮件，有些同学用上了第三方虚拟私人网络。这篇教程为大家带来PSU原生VPN，可以访问学校内部资源，全部免费，不限流量时长(速度不快哦)，只需要简单的安装和设置，使用PSU ID登陆即可使用。
+
+    <text class="textSubHeader1">
+      优点
+    </text>
+
+    PSU-VPN可以让学校外的大家使用"LIASVPN"链接到PSU内部资源网络，如 PASS，KMS和Udrive，并且可以通过校图书馆的VPN，访问gmail等网站。
+
+    <text class="textSubHeader1">
+      Windows 客户端安装
+    </text>
+
+    <text class="textSubHeader2">
+      第一步
+    </text>
+
+    访问: https://downloads.its.psu.edu
+    
+    在"Connecting to Penn State"中选择Windows.
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn1.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    <text class="textSubHeader2">
+      第二步
+    </text>
+
+    下载完成后，双击下载文件进行安装。一路点击“next”，完成安装。
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn2.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    <text class="textSubHeader2">
+      第三步
+    </text>
+
+    打开安装完成的客户端“Cisco AnyConnect Secure Mobility Client”，如果找不到客户端位置，可以使用Windows的搜索功能：
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn3.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    登陆方法请查看下方章节：“VPN登陆 (PC/MAC)”
+
+    <text class="textSubHeader1">
+      Mac 客户端安装
+    </text>
+
+    <text class="textSubHeader2">
+      第一步
+    </text>
+
+    访问: https://downloads.its.psu.edu
+
+    在"Connecting to Penn State"中选择Macintosh
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn4.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    <text class="textSubHeader2">
+      第二步
+    </text>
+
+    下载完成后，双击下载文件根据提示完成安装。
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn5.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    <text class="textSubHeader2">
+      第三步
+    </text>
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn6.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    打开安装完成的客户端“Cisco AnyConnect Secure Mobility Client”，如果找不到客户端位置，可以使用Mac的搜索功能：
+
+    登陆方法请查看下方章节：“VPN登陆 (PC/MAC)”
+
+    <text class="textSubHeader1">
+      VPN登陆 (PC/MAC)
+    </text>
+
+    <text class="textSubHeader2">
+      第一步
+    </text>
+
+    启动安装好的客户端
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn7.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    Network名称应和上图所示一致。 如不一致，点击上图的下拉箭头，在下拉菜单中选择vpn.its.psu.edu
+
+    <text class="textSubHeader2">
+      第二步
+    </text>
+
+    点击“Connect”，弹出如下图所示窗口，并在Group中选择：LIASVPN
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn8.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    <text class="bold">
+      注意：GROUP选项请选择LIASVPN
+    </text>
+
+    <text class="textSubHeader2">
+      第三步
+    </text>
+
+    Username: 你的PSU邮箱ID，如xyz123
+
+    Password: 你的PSU ID密码
+
+    填写完毕后，点击“OK”进行连接。如果网络连接正确，用户名与密码对应，你应该看到如下图的连接成功界面：
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn9.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    <text class="textSubHeader1">
+      iOS客户端安装/VPN登陆
+    </text>
+
+    <text class="textSubHeader2">
+      第一步
+    </text>
+
+    在AppStore中下载“Cisco AnyConnect”，如下图:
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn10.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    <text class="textSubHeader2">
+      第二步
+    </text>
+
+    下载完成后，打开自动安装完毕的app：
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn11.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    <text class="textSubHeader2">
+      第三步
+    </text>
+
+    选择“connections”，设置PSU VPN连接。
+
+    Description: PSU Anyconnect
+
+    Server Add: vpn.its.psu.edu
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn12.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    <text class="textSubHeader2">
+      第四步
+    </text>
+
+    输入完成后，点击“Save”，返回登录界面，点击AnyConnect VPN：
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn13.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    <text class="textSubHeader2">
+      第五步
+    </text>
+
+    Group: LIASVPN
+
+    Username: 你的PSU邮箱ID，如xyz123
+
+    Password: 你的PSU ID密码
+
+    <text class="textSubHeader2">
+      第六步
+    </text>
+
+    填写完成后，点击“Connect”，如果网络设置正确，用户名密码对应，将弹出“Banner”：
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn14.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    选择“Accept”完成PSU-VPN登陆。
+
+    <text class="textSubHeader1">
+      Android客户端安装/VPN登陆
+    </text>
+
+    <text class="textSubHeader2">
+      第一步
+    </text>
+
+    在Play Store中下载“Cisco AnyConnect”，如下图:
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn15.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    <text class="textSubHeader2">
+      第二步
+    </text>
+
+    下载完成后，点开自动安装完毕的app，阅读用户协议，点击OK启动app：
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn16.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    <text class="textSubHeader2">
+      第三步
+    </text>
+
+    启动后，选择“connections”，
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn17.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    选择“Add New VPN Connection...”
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn18.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    弹出的窗口里选择“Add New VPN...”
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn19.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    <text class="textSubHeader2">
+      第四步
+    </text>
+
+    在弹出的界面中，如下图添加VPN设置：
+
+    Description: PSU Anyconnect
+
+    Server Add: vpn.its.psu.edu
+
+    填写完成后，选择“Done”。
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn20.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    <text class="textSubHeader2">
+      第五步
+    </text>
+
+    在弹出的登录界面填写登录信息：
+
+    Username: 你的PSU邮箱ID，如xyz123
+
+    Password: 你的PSU ID密码
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn21.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    <text class="textSubHeader2">
+      第六步
+    </text>
+
+    填写完成后，点击“Connect”，如果网络设置正确，用户名密码对应，将弹出提示：
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn22.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+  </text>
+  <image src="/images/manual/dailyLife/freeVPN/vpn23.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    选择“Accept”后，再新的提示窗口中选择“OK”，完成PSU-VPN登陆。
+
+    <text class="textSubHeader1">
+      常见问题
+    </text>
+
+    <text class="textSubHeader2">
+      为什么无法访问YouTube?或访问后视频出现卡顿，观看一段时间后无法加载？
+    </text>
+
+    LIASVPN是PSU图书馆的VPN接口，对于流媒体有一定的限制。使用此VPN观看流媒体时有时会出现卡顿或无法观看的情况。请主要使用此VPN进行非流媒体内容的查看。
+
+    <text class="textSubHeader2">
+      为什么无法登陆VPN?或登陆后无法查收gmail邮件？
+    </text>
+
+    在链接过程中请确认Group选项中选择了LIASVPN，再次尝试链接。
+    
+    如果仍连接失败，请将Group选项的内容改为ISPtoPSU进行尝试。
+
+    <text class="textSubHeader2">
+      断开VPN后，正常的网络连接出现异常？
+    </text>
+
+    这种情况的出现一般由于链接VPN过程中形成了高优先级的默认路由。删除此默认路由的方法可以查看：
+
+    windows：
+
+    http://blog.csdn.net/xuhuojun/article/details/3943263
+
+    mac：
+
+    https://www.zhihu.com/question/31430434
+
+
+
+  </text>
+</view>

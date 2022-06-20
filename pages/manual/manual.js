@@ -167,4 +167,118 @@ Page({
     })
   },
 
+  clickOnStuOrg() {
+    wx.navigateTo({
+      url: './dailyLife/stuOrg/stuOrg',
+    })
+  },
+
+  clickOnInnerHouse() {
+    wx.navigateTo({
+      url: './dailyLife/innerHouse/innerHouse',
+    })
+  },
+
+  clickOnInnerHouseSize() {
+    wx.navigateTo({
+      url: './dailyLife/innerHouseSize/innerHouseSize',
+    })
+  },
+
+  clickOnOuterHouse() {
+    wx.navigateTo({
+      url: './dailyLife/outerHouse/outerHouse',
+    })
+  },
+
+  clickOnInnerEat() {
+    wx.navigateTo({
+      url: './dailyLife/innerEat/innerEat',
+    })
+  },
+
+  clickOnOuterEat() {
+    wx.navigateTo({
+      url: './dailyLife/outerEat/outerEat',
+    })
+  },
+
+  clickOnGym() {
+    wx.navigateTo({
+      url: './dailyLife/gym/gym',
+    })
+  },
+
+  clickOnTransport() {
+    wx.navigateTo({
+      url: './dailyLife/transport/transport',
+    })
+  },
+
+  clickOnMail() {
+    wx.navigateTo({
+      url: './dailyLife/mail/mail',
+    })
+  },
+
+  clickOnBankCard() {
+    wx.navigateTo({
+      url: './dailyLife/bankCard/bankCard',
+    })
+  },
+
+  clickOnSupermarket() {
+    wx.navigateTo({
+      url: './dailyLife/supermarket/supermarket',
+    })
+  },
+
+  clickOnAfterClassAct() {
+    wx.navigateTo({
+      url: './dailyLife/afterClassAct/afterClassAct',
+    })
+  },
+
+  clickOnInsurance() {
+    wx.navigateTo({
+      url: './dailyLife/insurance/insurance',
+    })
+  },
+
+  clickOnLicenceAndBuyCar() {
+    wx.navigateTo({
+      url: './dailyLife/licenceAndBuyCar/licenceAndBuyCar',
+    })
+  },
+
+  clickOnCarInsuranceAndParking() {
+    wx.navigateTo({
+      url: './dailyLife/carInsuranceAndParking/carInsuranceAndParking',
+    })
+  },
+
+  clickOnTravel() {
+    wx.navigateTo({
+      url: './dailyLife/travel/travel',
+    })
+  },
+
+  clickOnTravelSignature() {
+    wx.navigateTo({
+      url: './dailyLife/travelSignature/travelSignature',
+    })
+  },
+
+  clickOnInternationalPolicy() {
+    wx.navigateTo({
+      url: './dailyLife/internationalPolicy/internationalPolicy',
+    })
+  },
+
+  clickOnFreeVPN() {
+    wx.navigateTo({
+      url: './dailyLife/freeVPN/freeVPN',
+    })
+  },
+
 })

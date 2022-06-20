@@ -183,12 +183,12 @@ page{
   top: 1380rpx;
   left: 50rpx;
 }
-.innerOrg{
+.innerHouse{
   position: absolute;
   top: 1430rpx;
   left: 50rpx;
 }
-.innerHouse{
+.innerHouseSize{
   position: absolute;
   top: 1480rpx;
   left: 50rpx;

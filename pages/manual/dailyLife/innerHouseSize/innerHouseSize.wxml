@@ -1,0 +1,87 @@
+<!--pages/manual/dailyLife/innerHouseSize/innerHouseSize.wxml-->
+<view class="headerContainer">
+  <image src="/images/color/red.png" class="headerImg"></image>
+  <text class="headerText">University Park 校内住宿部分房屋规格</text>
+</view>
+<view class="textContainer">
+  <text class="textParagraph">
+  
+    <text class="bold">
+      最新信息参考Penn State Living官网
+    </text>
+    https://housing.psu.edu/housing-areas
+
+    <text class="textSubHeader1">
+      Pollock Hall
+    </text>
+    \r\n
+  </text>
+  <image src="/images/manual/dailyLife/innerHouseSize/pollock.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+    \r\n
+    <text class="textSubHeader1">
+      South Hall
+    </text>
+    \r\n
+  </text>
+  <image src="/images/manual/dailyLife/innerHouseSize/south.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+    \r\n
+    <text class="textSubHeader1">
+      East Hall
+    </text>
+    \r\n
+  </text>
+  <image src="/images/manual/dailyLife/innerHouseSize/east.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+    \r\n
+    <text class="textSubHeader1">
+      North Hall
+    </text>
+    \r\n
+  </text>
+  <image src="/images/manual/dailyLife/innerHouseSize/north.jpg" mode="aspectFit"></image>
+  <text class="textParagraph">
+    \r\n
+    <text class="textSubHeader1">
+      Simmons Hall
+    </text>
+    \r\n
+  </text>
+  <image src="/images/manual/dailyLife/innerHouseSize/simmons.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+    \r\n
+    <text class="textSubHeader1">
+      West Hall
+    </text>
+    \r\n
+  </text>
+  <image src="/images/manual/dailyLife/innerHouseSize/west.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+    \r\n
+    <text class="textSubHeader1">
+      Nittany Apartment
+    </text>
+    \r\n
+  </text>
+  <image src="/images/manual/dailyLife/innerHouseSize/nittany.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+    \r\n
+    <text class="textSubHeader1">
+      Atherton Hall
+    </text>
+    \r\n
+  </text>
+  <image src="/images/manual/dailyLife/innerHouseSize/atherton.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+    \r\n
+    <text class="textSubHeader1">
+      White Course Apartment
+    </text>
+    \r\n
+  </text>
+  <image src="/images/manual/dailyLife/innerHouseSize/whitecourseapt.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+    \r\n
+  </text>
+</view>

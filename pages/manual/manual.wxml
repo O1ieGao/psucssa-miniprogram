@@ -40,25 +40,25 @@
   </view>
   <view class="dailyLifeMainContainer">
     <image src="../../images/color/blue.png" mode="aspectFill" class="dailyLifeMainBg"></image>
-    <view class="stuOrg">学生组织</view>
-    <view class="innerOrg">校内组织</view>
-    <view class="innerHouse">University Park校内住宿部分房屋规格</view>
-    <view class="outerHouse">校外住宿</view>
-    <view class="innerEat">校内餐饮</view>
-    <view class="outerEat">校外餐饮</view>
-    <view class="gym">健身房与课程</view>
-    <view class="transport">交通</view>
-    <view class="mail">邮政</view>
-    <view class="bankCard">银行卡</view>
-    <view class="supermarket">购物/超市</view>
-    <view class="afterClassAct">课余活动</view>
-    <view class="insurance">医疗与保险</view>
-    <view class="licenceAndBuyCar">考驾照及买车</view>
-    <view class="carInsuranceAndParking">车辆保险&停车</view>
-    <view class="travel">旅游</view>
-    <view class="travelSignature">Travel Signature</view>
-    <view class="internationalPolicy">国际学生特殊政策</view>
-    <view class="freeVPN">FreeVPN@PSU</view>
+    <view class="stuOrg" bindtap="clickOnStuOrg">学生组织</view>
+    <view class="innerHouse" bindtap="clickOnInnerHouse">校内住宿</view>
+    <view class="innerHouseSize" bindtap="clickOnInnerHouseSize">University Park校内住宿部分房屋规格</view>
+    <view class="outerHouse" bindtap="clickOnOuterHouse">校外住宿</view>
+    <view class="innerEat" bindtap="clickOnInnerEat">校内餐饮</view>
+    <view class="outerEat" bindtap="clickOnOuterEat">校外餐饮</view>
+    <view class="gym" bindtap="clickOnGym">健身房与课程</view>
+    <view class="transport" bindtap="clickOnTransport">交通</view>
+    <view class="mail" bindtap="clickOnMail">邮政</view>
+    <view class="bankCard" bindtap="clickOnBankCard">银行卡</view>
+    <view class="supermarket" bindtap="clickOnSupermarket">购物/超市</view>
+    <view class="afterClassAct" bindtap="clickOnAfterClassAct">课余活动</view>
+    <view class="insurance" bindtap="clickOnInsurance">医疗与保险</view>
+    <view class="licenceAndBuyCar" bindtap="clickOnLicenceAndBuyCar">考驾照及买车</view>
+    <view class="carInsuranceAndParking" bindtap="clickOnCarInsuranceAndParking">车辆保险&停车</view>
+    <view class="travel" bindtap="clickOnTravel">旅游</view>
+    <view class="travelSignature" bindtap="clickOnTravelSignature">Travel Signature</view>
+    <view class="internationalPolicy" bindtap="clickOnInternationalPolicy">国际学生特殊政策</view>
+    <view class="freeVPN" bindtap="clickOnFreeVPN">FreeVPN@PSU</view>
   </view>
 </view>
 <view class="otherCampusContainer">

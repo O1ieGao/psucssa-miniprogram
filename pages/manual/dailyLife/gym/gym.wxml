@@ -1,0 +1,34 @@
+<!--pages/manual/dailyLife/gym/gym.wxml-->
+<view class="headerContainer">
+  <image src="/images/color/red.png" class="headerImg"></image>
+  <text class="headerText">健身房与课程</text>
+</view>
+<view class="textContainer">
+  <text class="textParagraph">
+    
+    <text class="textSubHeader1">
+      关于健身卡与入场许可
+    </text>
+
+    PSU学生可以在建筑设施开放时间内免费入场，如果你在暑假没有上PSU暑校项目需要额外付费取得入场许可。
+
+    <text class="textSubHeader1">
+      Park校区健身房地点
+    </text>
+
+    学校官网参考链接：https://studentaffairs.psu.edu/facilities-spaces/campus-recreation-facilities
+
+    IM Building
+
+    Hepper Fitness Center
+
+    White Building
+
+    The Tennis Center
+
+    McCoy Natatorium
+
+
+
+  </text>
+</view>
