@@ -2,7 +2,25 @@
   "pages": [
     "pages/welcome/welcome",
     "pages/manual/manual",
-    "pages/majorWiki/majorWiki"
+    "pages/majorWiki/majorWiki",
+    "pages/aboutCSSA/aboutCSSA",
+    "common/common",
+    "pages/manual/beforeUS/visa/visa",
+    "pages/manual/beforeUS/file/file",
+    "pages/manual/beforeUS/physicalExamination/physicalExamination",
+    "pages/manual/beforeUS/prepareBeforeTravel/prepareBeforeTravel",
+    "pages/manual/beforeUS/dorm/dorm",
+    "pages/manual/beforeUS/tool/tool",
+    "pages/manual/beforeUS/transferCredit/transferCredit",
+    "pages/manual/beforeUS/honor/honor",
+    "pages/manual/beforeUS/ticket/ticket",
+    "pages/manual/afterUS/eat/eat",
+    "pages/manual/afterUS/comm/comm",
+    "pages/manual/afterUS/prepareBeforeSchool/prepareBeforeSchool",
+    "pages/manual/afterUS/ori/ori",
+    "pages/manual/afterUS/tuition/tuition",
+    "pages/manual/afterUS/corseManual/courseManual",
+    "pages/manual/afterUS/freshmanActivity/freshmanActivity"
   ],
   "window": {
     "backgroundTextStyle": "light",

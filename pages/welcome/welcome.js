@@ -1,5 +1,8 @@
 // index.js
 Page({
+  data: {
+
+  },
   onLoad: function () {
     console.log("page onLoad")
   },
@@ -14,6 +17,11 @@ Page({
   },
   onUnload: function () {
     console.log("page onUnload")
+  },
+  clickOnTopSubText: function () {
+    wx.navigateTo({
+      url: '../aboutCSSA/aboutCSSA',
+    })
   },
   clickOnManual: function () {
     wx.navigateTo({

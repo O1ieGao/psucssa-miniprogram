@@ -1,2 +1,130 @@
 <!--pages/blue/blue.wxml-->
-<text>this is manual</text>
+<view class="beforeUSContainer">
+  <view class="beforeUSHeaderContainer">
+    <image src="../../images/color/red.png" mode="aspectFill" class="beforeUSHeaderBg"></image>
+    <text class="beforeUSHeaderText">来美之前</text>
+  </view>
+  <view class="beforeUSMainContainer">
+    <image src="../../images/color/blue.png" mode="aspectFill" class="beforeUSMainBg"></image>
+    <view class="visa" bindtap="clickOnVisa">签证</view>
+    <view class="file" bindtap="clickOnFile">档案</view>
+    <view class="physicalExamination" bindtap="clickOnPhysicalExamination">体检</view>
+    <view class="dorm" bindtap="clickOnDorm">新生宿舍准备</view>
+    <view class="tool" bindtap="clickOnTool">iStart/LionPath/Canvas/选课</view>
+    <view class="transferCredit" bindtap="clickOnTransferCredit">转学分</view>
+    <view class="honor" bindtap="clickOnHonor">奖学金与荣誉学院</view>
+    <view class="ticket" bindtap="clickOnTicket">机票及入境</view>
+    <view class="prepareBeforeTravel" bindtap="clickOnPrepareBeforeTravel">行前准备</view>
+  </view>
+</view>
+<view class="afterUSContainer">
+  <view class="afterUSHeaderContainer">
+    <image src="../../images/color/red.png" mode="aspectFill" class="afterUSHeaderBg"></image>
+    <text class="afterUSHeaderText">抵美之后</text>
+  </view>
+  <view class="afterUSMainContainer">
+    <image src="../../images/color/blue.png" mode="aspectFill" class="afterUSMainBg"></image>
+    <view class="eat" bindtap="clickOnEat">关于餐饮</view>
+    <view class="comm" bindtap="clickOnComm">通讯</view>
+    <view class="prepareBeforeSchool" bindtap="clickOnPrepareBeforeSchool">开学前准备</view>
+    <view class="ori" bindtap="clickOnOrientation">Orientation</view>
+    <view class="tuition" bindtap="clickOnTuition">学费</view>
+    <view class="corseManual" bindtap="clickOnCourseManual">选课指南</view>
+    <view class="freshmanActivity" bindtap="clickOnFreshmanActivity">新生活动</view>
+  </view>
+</view>
+<view class="dailyLife">
+  <view class="dailyLifeHeaderContainer">
+    <image src="../../images/color/red.png" mode="aspectFill" class="dailyLifeHeaderBg"></image>
+    <text class="dailyLifeHeaderText">日常生活</text>
+  </view>
+  <view class="dailyLifeMainContainer">
+    <image src="../../images/color/blue.png" mode="aspectFill" class="dailyLifeMainBg"></image>
+    <view class="stuOrg">学生组织</view>
+    <view class="innerOrg">校内组织</view>
+    <view class="innerHouse">University Park校内住宿部分房屋规格</view>
+    <view class="outerHouse">校外住宿</view>
+    <view class="innerEat">校内餐饮</view>
+    <view class="outerEat">校外餐饮</view>
+    <view class="gym">健身房与课程</view>
+    <view class="transport">交通</view>
+    <view class="mail">邮政</view>
+    <view class="bankCard">银行卡</view>
+    <view class="supermarket">购物/超市</view>
+    <view class="afterClassAct">课余活动</view>
+    <view class="insurance">医疗与保险</view>
+    <view class="licenceAndBuyCar">考驾照及买车</view>
+    <view class="carInsuranceAndParking">车辆保险&停车</view>
+    <view class="travel">旅游</view>
+    <view class="travelSignature">Travel Signature</view>
+    <view class="internationalPolicy">国际学生特殊政策</view>
+    <view class="freeVPN">FreeVPN@PSU</view>
+  </view>
+</view>
+<view class="otherCampusContainer">
+  <view class="otherCampusHeaderContainer">
+    <image src="../../images/color/red.png" mode="aspectFill" class="otherCampusHeaderBg"></image>
+    <text class="otherCampusHeaderText">分校信息</text>
+  </view>
+  <view class="otherCampusMainContainer">
+    <image src="../../images/color/blue.png" mode="aspectFill" class="otherCampusMainBg"></image>
+    <view class="york">约克校区 Penn State York</view>
+    <view class="brandyWine">布兰德万河 Penn State BrandyWine</view>
+    <view class="harrisburg">哈里斯堡校区 Penn State Harrisburg</view>
+    <view class="erie">伊利校区 Penn State Erie</view>
+    <view class="abington">阿宾顿校区 Penn State Abington</view>
+    <view class="altoona">阿尔图纳校区 Penn State Altoona</view>
+  </view>
+</view>
+<view class="freshmanQAContainer">
+  <view class="freshmanQAHeaderContainer">
+    <image src="../../images/color/red.png" mode="aspectFill" class="freshmanQAHeaderBg"></image>
+    <text class="freshmanQAHeaderText">新生常见问题</text>
+  </view>
+  <view class="freshmanQAMainContainer">
+    <image src="../../images/color/blue.png" mode="aspectFill" class="freshmanQAMainBg"></image>
+    <view class="freshmanQA">新生常见问题</view>
+  </view>
+</view>
+<view class="nyCenterContainer">
+  <view class="nyCenterHeaderContainer">
+    <image src="../../images/color/red.png" mode="aspectFill" class="nyCenterHeaderBg"></image>
+    <text class="nyCenterHeaderText">纽约中国留学服务中心</text>
+  </view>
+  <view class="nyCenterMainContainer">
+    <image src="../../images/color/blue.png" mode="aspectFill" class="nyCenterMainBg"></image>
+    <view class="nyCenter">纽约中国留学服务中心</view>
+  </view>
+</view>
+<view class="funFactsContainer">
+  <view class="funFactsHeaderContainer">
+    <image src="../../images/color/red.png" mode="aspectFill" class="funFactsHeaderBg"></image>
+    <text class="funFactsHeaderText">Fun Facts</text>
+  </view>
+  <view class="funFactsMainContainer">
+    <image src="../../images/color/blue.png" mode="aspectFill" class="funFactsMainBg"></image>
+    <view class="nakedDay">PSU的裸奔日</view>
+    <view class="blackPink">黑粉相间的Penn State</view>
+  </view>
+</view>
+<view class="entertainmentContainer">
+  <view class="entertainmentHeaderContainer">
+    <image src="../../images/color/red.png" mode="aspectFill" class="entertainmentHeaderBg"></image>
+    <text class="entertainmentHeaderText">生活娱乐</text>
+  </view>
+  <view class="entertainmentMainContainer">
+    <image src="../../images/color/blue.png" mode="aspectFill" class="entertainmentMainBg"></image>
+    <view class="coffee">咖啡店</view>
+  </view>
+</view>
+<view class="lastMsgContainer">
+  <view class="lastMsgHeaderContainer">
+    <image src="../../images/color/red.png" mode="aspectFill" class="lastMsgHeaderBg"></image>
+    <text class="lastMsgHeaderText">写在最后</text>
+  </view>
+  <view class="lastMsgMainContainer">
+    <image src="../../images/color/blue.png" mode="aspectFill" class="lastMsgMainBg"></image>
+    <view class="lastMsg">写在最后</view>
+  </view>
+</view>
+<view class="testView">123123</view>

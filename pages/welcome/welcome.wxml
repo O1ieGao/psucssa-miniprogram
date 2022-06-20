@@ -1,14 +1,21 @@
 <!--index.wxml-->
-<view class="manualContainer">
-  <image src="../../images/welcome/manual2.png" class="i1" bindtap="clickOnManual"></image>
-  <view class="manualText">新生手册</view>
+<view class="topContainer">
+  <image src="../../images/welcome/manual2.png" class="topImg"></image>
+  <image src="../../images/welcome/logo.png" class="logoImg" mode="aspectFill"></image>
+  <view class="topText">欢迎来到宾州州立！</view>
+  <view class="topSubText" bindtap="clickOnTopSubText">关于我们 ></view>
 </view>
 
-<!-- <image src="../../images/welcome/majorWiki2.png" class="i2" bindtap="clickOnMajorWiki"></image> -->
-<view class="container">
-  Weixin
-  <view class="backgroundColor">
-    PSUCSSA
-  </view>
+<view class="manualContainer" bindtap="clickOnManual">
+  <image src="../../images/welcome/manual3.png" class="manualImg"></image>
+  <view class="manualText">新生手册2022</view>
+  <view class="manualSubText">解决你所有的疑惑</view>
 </view>
+
+<view class="majorWikiContainer" bindtap="clickOnMajorWiki">
+  <image src="../../images/welcome/majorWiki3.png" class="majorWikiImg"></image>
+  <view class="majorWikiText">PSU专业百科</view>
+  <view class="majorWikiSubText">和你想的一样吗</view>
+</view>
+
 

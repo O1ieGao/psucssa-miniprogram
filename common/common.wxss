@@ -1,0 +1,12 @@
+/* common/common.wxss */
+page{
+  --headerImgTop: 15rpx;
+  --headerImgHeight: 60rpx;
+  --headerImgWigth: 10rpx;
+  --headerImgMarginLeft: 20rpx;
+  --headerTextTop: 8rpx;
+  --headerTextSize: 60rpx;
+  --headerTextWeight: bold;
+  --headerTextMarginLeft: 10rpx;
+  --headerTextFontFamily: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

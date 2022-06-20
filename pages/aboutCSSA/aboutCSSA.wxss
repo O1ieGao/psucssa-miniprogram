@@ -1,0 +1,48 @@
+/* pages/aboutCSSA/aboutCSSA.wxss */
+@import "/common/common.wxss";
+.headerConainer{
+  position: relative;
+}
+.headerImg{
+  position: relative;
+  top: var(--headerImgTop);
+  margin-left: var(--headerImgMarginLeft);
+  height: var(--headerImgHeight);
+  width: var(--headerImgWigth);
+}
+.headerText{
+  position: relative;
+  top: var(--headerTextTop);
+  margin-left: var(--headerTextMarginLeft);
+  font-size: var(--headerTextSize);
+  font-weight: var(--headerTextWeight);
+  font-family: var(--headerTextFontFamily);
+}
+.textContainer{
+  position: relative;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.textParagraph{
+  font-size: 30rpx;
+}
+.textSubHeader1{
+  font-size: 45rpx;
+  font-weight: bold;
+}
+.textSubHeader2{
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.bold{
+  font-weight: bold;
+}
+.departmentsList{
+  margin-left: 40rpx;
+}
+.listHeadImg{
+  position: relative;
+  height: 10rpx;
+  width: 10rpx;
+}

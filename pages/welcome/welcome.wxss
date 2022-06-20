@@ -6,31 +6,108 @@
   color: blue;
   font-size: 50rpx;
 }
-.i1{
-  margin-left: 20rpx;
-  margin-right: 20rpx;
-  width: 95%;
-  height: 400rpx;
+.topContainer{
+  position: relative;
 }
-.i2{
-  margin-left: 20rpx;
-  margin-right: 20rpx;
-  width: 95%;
-  height: 400rpx;
+.topImg{
+  width: 100%;
+  height: 500rpx;
+}
+.logoImg{
+  width: 35%;
+  height: 35%;
+  position: absolute;
+  left: 30rpx;
+  top: 150rpx;
+  margin: auto;
+}
+.topText{
+  position: absolute;
+  right: 20rpx;
+  top: 200rpx;
+  margin: auto;
+  font-size: 50rpx;
+  font-weight: bold;
+  color: #F5F5F5;
+  display: block;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.topSubText{
+  position: absolute;
+  right: 50rpx;
+  top: 275rpx;
+  margin: auto;
+  font-size: 35rpx;
+  font-weight:bold;
+  color: rgb(160,39,39);
+  display: block;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .manualContainer{
   position: relative;
+  margin-top: 30rpx;
+}
+.manualImg{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  width: 95%;
+  height: 300rpx;
+  border-radius: 5px;
+  overflow: hidden;
 }
 .manualText{
   position: absolute;
-  left: 50rpx;
-  right: 0;
+  left: 100rpx;
   top: 100rpx;
-  bottom: 0;
   margin: auto;
-  font-size: 80rpx;
+  font-size: 50rpx;
   font-weight: bold;
-  color: whitesmoke;
+  color: #F5F5F5;
   display: block;
-  font-family: cursive;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.manualSubText{
+  position: absolute;
+  left: 100rpx;
+  top: 175rpx;
+  margin: auto;
+  font-size: 35rpx;
+  font-weight:bold;
+  color: #2A2B2E;
+  display: block;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.majorWikiContainer{
+  position: relative;
+  margin-top: 30rpx;
+}
+.majorWikiImg{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  width: 95%;
+  height: 300rpx;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.majorWikiText{
+  position: absolute;
+  right: 100rpx;
+  top: 100rpx;
+  margin: auto;
+  font-size: 50rpx;
+  font-weight: bold;
+  color: #F5F5F5;
+  display: block;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.majorWikiSubText{
+  position: absolute;
+  right: 100rpx;
+  top: 175rpx;
+  margin: auto;
+  font-size: 30rpx;
+  font-weight:bold;
+  color: #5A5A66;
+  display: block;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

@@ -1,1 +1,525 @@
 /* pages/blue/blue.wxss */
+page{
+  /* background-color: #F5F5F5; */
+}
+.beforeUSContainer{
+  position: relative;
+}
+.beforeUSHeaderBg{
+  position: absolute;
+  top: 50rpx;
+  left: 20rpx;
+  height: 80rpx;
+  width: 200rpx;
+  /* border-radius: 5px;
+  overflow: hidden; */
+}
+.beforeUSHeaderText{
+  position: absolute;
+  top: 57rpx;
+  left: 32rpx;
+  font-size: 45rpx;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#F5F5F5;
+}
+.beforeUSMainContainer{
+  position: relative;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#F5F5F5;
+}
+.beforeUSMainBg{
+  position: absolute;
+  top: 160rpx;
+  height: 490rpx;
+  margin-left: 20rpx;
+  /* box-shadow: 13rpx 13rpx 0rpx #2A2B2E; */
+}
+.visa{
+  position: absolute;
+  top: 180rpx;
+  left: 50rpx;
+}
+.file{
+  position: absolute;
+  top: 230rpx;
+  left: 50rpx;
+}
+.physicalExamination{
+  position: absolute;
+  top: 280rpx;
+  left: 50rpx;
+}
+.dorm{
+  position: absolute;
+  top: 330rpx;
+  left: 50rpx;
+}
+.tool{
+  position: absolute;
+  top: 380rpx;
+  left: 50rpx;
+}
+.transferCredit{
+  position: absolute;
+  top: 430rpx;
+  left: 50rpx;
+}
+.honor{
+  position: absolute;
+  top: 480rpx;
+  left: 50rpx;
+}
+.ticket{
+  position: absolute;
+  top: 530rpx;
+  left: 50rpx;
+}
+.prepareBeforeTravel{
+  position: absolute;
+  top: 580rpx;
+  left: 50rpx;
+}
+.afterUSHeaderBg{
+  position: absolute;
+  top: 700rpx;
+  left: 20rpx;
+  height: 80rpx;
+  width: 200rpx;
+  /* box-shadow: 13rpx 13rpx 0rpx #2A2B2E; */
+}
+.afterUSHeaderText{
+  position: absolute;
+  top: 707rpx;
+  left: 32rpx;
+  font-size: 45rpx;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #F5F5F5;
+}
+.afterUSMainContainer{
+  position: relative;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#F5F5F5;
+}
+.afterUSMainBg{
+  position: absolute;
+  top: 810rpx;
+  left: 20rpx;
+  height: 390rpx;
+  /* box-shadow: 13rpx 13rpx 0rpx #060913; */
+}
+.eat{
+  position: absolute;
+  top: 830rpx;
+  left: 50rpx;
+}
+.comm{
+  position: absolute;
+  top: 880rpx;
+  left: 50rpx;
+}
+.prepareBeforeSchool{
+  position: absolute;
+  top: 930rpx;
+  left: 50rpx;
+}
+.ori{
+  position: absolute;
+  top: 980rpx;
+  left: 50rpx;
+}
+.tuition{
+  position: absolute;
+  top: 1030rpx;
+  left: 50rpx;
+}
+.corseManual{
+  position: absolute;
+  top: 1080rpx;
+  left: 50rpx;
+}
+.freshmanActivity{
+  position: absolute;
+  top: 1130rpx;
+  left: 50rpx;
+}
+
+/*dailyLife*/
+.dailyLifeHeaderBg{
+  position: absolute;
+  top: 1250rpx;
+  left: 20rpx;
+  height: 80rpx;
+  width: 200rpx;
+  /* box-shadow: 13rpx 13rpx 0rpx #2A2B2E; */
+}
+.dailyLifeHeaderText{
+  position: absolute;
+  top: 1257rpx;
+  left: 32rpx;
+  font-size: 45rpx;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #F5F5F5;
+}
+.dailyLifeMainContainer{
+  position: relative;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#F5F5F5;
+}
+.dailyLifeMainBg{
+  position: absolute;
+  top: 1360rpx;
+  left: 20rpx;
+  height: 990rpx;
+  /* box-shadow: 13rpx 13rpx 0rpx #060913; */
+}
+.stuOrg{
+  position: absolute;
+  top: 1380rpx;
+  left: 50rpx;
+}
+.innerOrg{
+  position: absolute;
+  top: 1430rpx;
+  left: 50rpx;
+}
+.innerHouse{
+  position: absolute;
+  top: 1480rpx;
+  left: 50rpx;
+}
+.outerHouse{
+  position: absolute;
+  top: 1530rpx;
+  left: 50rpx;
+}
+.innerEat{
+  position: absolute;
+  top: 1580rpx;
+  left: 50rpx;
+}
+.outerEat{
+  position: absolute;
+  top: 1630rpx;
+  left: 50rpx;
+}
+.gym{
+  position: absolute;
+  top: 1680rpx;
+  left: 50rpx;
+}
+.transport{
+  position: absolute;
+  top: 1730rpx;
+  left: 50rpx;
+}
+.mail{
+  position: absolute;
+  top: 1780rpx;
+  left: 50rpx;
+}
+.bankCard{
+  position: absolute;
+  top: 1830rpx;
+  left: 50rpx;
+}
+.supermarket{
+  position: absolute;
+  top: 1880rpx;
+  left: 50rpx;
+}
+.afterClassAct{
+  position: absolute;
+  top: 1930rpx;
+  left: 50rpx;
+}
+.insurance{
+  position: absolute;
+  top: 1980rpx;
+  left: 50rpx;
+}
+.licenceAndBuyCar{
+  position: absolute;
+  top: 2030rpx;
+  left: 50rpx;
+}
+.carInsuranceAndParking{
+  position: absolute;
+  top: 2080rpx;
+  left: 50rpx;
+}
+.travel{
+  position: absolute;
+  top: 2130rpx;
+  left: 50rpx;
+}
+.travelSignature{
+  position: absolute;
+  top: 2180rpx;
+  left: 50rpx;
+}
+.internationalPolicy{
+  position: absolute;
+  top: 2230rpx;
+  left: 50rpx;
+}
+.freeVPN{
+  position: absolute;
+  top: 2280rpx;
+  left: 50rpx;
+}
+.testView{
+  position: absolute;
+  top: 5500rpx;
+}
+/*otherCampus*/
+.otherCampusHeaderBg{
+  position: absolute;
+  top: 2400rpx;
+  left: 20rpx;
+  height: 80rpx;
+  width: 200rpx;
+  /* box-shadow: 13rpx 13rpx 0rpx #2A2B2E; */
+}
+.otherCampusHeaderText{
+  position: absolute;
+  top: 2407rpx;
+  left: 32rpx;
+  font-size: 45rpx;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #F5F5F5;
+}
+.otherCampusMainContainer{
+  position: relative;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#F5F5F5;
+}
+.otherCampusMainBg{
+  position: absolute;
+  top: 2510rpx;
+  left: 20rpx;
+  height: 340rpx;
+  /* box-shadow: 13rpx 13rpx 0rpx #060913; */
+}
+.york{
+  position: absolute;
+  top: 2530rpx;
+  left: 50rpx;
+}
+.brandyWine{
+  position: absolute;
+  top: 2580rpx;
+  left: 50rpx;
+}
+.harrisburg{
+  position: absolute;
+  top: 2630rpx;
+  left: 50rpx;
+}
+.erie{
+  position: absolute;
+  top: 2680rpx;
+  left: 50rpx;
+}
+.abington{
+  position: absolute;
+  top: 2730rpx;
+  left: 50rpx;
+}
+.altoona{
+  position: absolute;
+  top: 2780rpx;
+  left: 50rpx;
+}
+/*freshmanQA*/
+.freshmanQAHeaderBg{
+  position: absolute;
+  top: 2900rpx;
+  left: 20rpx;
+  height: 80rpx;
+  width: 293rpx;
+  /* box-shadow: 13rpx 13rpx 0rpx #2A2B2E; */
+}
+.freshmanQAHeaderText{
+  position: absolute;
+  top: 2907rpx;
+  left: 32rpx;
+  font-size: 45rpx;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #F5F5F5;
+}
+.freshmanQAMainContainer{
+  position: relative;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#F5F5F5;
+}
+.freshmanQAMainBg{
+  position: absolute;
+  top: 3010rpx;
+  left: 20rpx;
+  height: 90rpx;
+  /* box-shadow: 13rpx 13rpx 0rpx #060913; */
+}
+.freshmanQA{
+  position: absolute;
+  top: 3030rpx;
+  left: 50rpx;
+}
+/*nyCenter*/
+.nyCenterHeaderBg{
+  position: absolute;
+  top: 3150rpx;
+  left: 20rpx;
+  height: 80rpx;
+  width: 465rpx;
+  /* box-shadow: 13rpx 13rpx 0rpx #2A2B2E; */
+}
+.nyCenterHeaderText{
+  position: absolute;
+  top: 3157rpx;
+  left: 32rpx;
+  font-size: 45rpx;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #F5F5F5;
+}
+.nyCenterMainContainer{
+  position: relative;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#F5F5F5;
+}
+.nyCenterMainBg{
+  position: absolute;
+  top: 3260rpx;
+  left: 20rpx;
+  height: 90rpx;
+  /* box-shadow: 13rpx 13rpx 0rpx #060913; */
+}
+.nyCenter{
+  position: absolute;
+  top: 3280rpx;
+  left: 50rpx;
+}
+/*funFacts*/
+.funFactsHeaderBg{
+  position: absolute;
+  top: 3400rpx;
+  left: 20rpx;
+  height: 80rpx;
+  width: 216rpx;
+  /* box-shadow: 13rpx 13rpx 0rpx #2A2B2E; */
+}
+.funFactsHeaderText{
+  position: absolute;
+  top: 3407rpx;
+  left: 32rpx;
+  font-size: 45rpx;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #F5F5F5;
+}
+.funFactsMainContainer{
+  position: relative;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#F5F5F5;
+}
+.funFactsMainBg{
+  position: absolute;
+  top: 3510rpx;
+  left: 20rpx;
+  height: 140rpx;
+  /* box-shadow: 13rpx 13rpx 0rpx #060913; */
+}
+.nakedDay{
+  position: absolute;
+  top: 3530rpx;
+  left: 50rpx;
+}
+.blackPink{
+  position: absolute;
+  top: 3580rpx;
+  left: 50rpx;
+}
+/*entertainment*/
+.entertainmentHeaderBg{
+  position: absolute;
+  top: 3700rpx;
+  left: 20rpx;
+  height: 80rpx;
+  width: 216rpx;
+  /* box-shadow: 13rpx 13rpx 0rpx #2A2B2E; */
+}
+.entertainmentHeaderText{
+  position: absolute;
+  top: 3707rpx;
+  left: 32rpx;
+  font-size: 45rpx;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #F5F5F5;
+}
+.entertainmentMainContainer{
+  position: relative;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#F5F5F5;
+}
+.entertainmentMainBg{
+  position: absolute;
+  top: 3810rpx;
+  left: 20rpx;
+  height: 90rpx;
+  /* box-shadow: 13rpx 13rpx 0rpx #060913; */
+}
+.coffee{
+  position: absolute;
+  top: 3830rpx;
+  left: 50rpx;
+}
+/*lastMsg*/
+.lastMsgHeaderBg{
+  position: absolute;
+  top: 3950rpx;
+  left: 20rpx;
+  height: 80rpx;
+  width: 216rpx;
+  /* box-shadow: 13rpx 13rpx 0rpx #2A2B2E; */
+}
+.lastMsgHeaderText{
+  position: absolute;
+  top: 3957rpx;
+  left: 32rpx;
+  font-size: 45rpx;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #F5F5F5;
+}
+.lastMsgMainContainer{
+  position: relative;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#F5F5F5;
+}
+.lastMsgMainBg{
+  position: absolute;
+  top: 4060rpx;
+  left: 20rpx;
+  height: 90rpx;
+  /* box-shadow: 13rpx 13rpx 0rpx #060913; */
+}
+.lastMsg{
+  position: absolute;
+  top: 4080rpx;
+  left: 50rpx;
+}

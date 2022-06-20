@@ -1,0 +1,73 @@
+<!--pages/manual/beforeUS/honor/honor.wxml-->
+<view class="headerContainer">
+  <image src="/images/color/red.png" class="headerImg"></image>
+  <text class="headerText">奖学金与荣誉学院</text>
+</view>
+<view class="textContainer">
+  <text class="textParagraph">
+    
+    <text class="textSubHeader1">
+      PSU 奖学金申请
+    </text>
+    Scholarship是根据学生的成绩或经济需要，或根据具体的奖学金项目的规定，根据两者的结合而颁发的。典型的PSU大学奖学金每年在1500美元到3000美元之间。
+
+    奖学金的申请方法有两种：通过邮件或网站申请
+    <text class="bold">
+      1. 通过邮件
+    </text>
+    收到学校发出的 offer 之后会不定期收到学校的邮件，其中有专门邮件是关于奖学金申请，点进去然后填写相关信息（写申请文书，找老师等帮忙写推荐文书，准备resume，并提交成绩单等相关证明文件），完成提交之后等待结果就好。
+
+    <text class="bold">
+      2. 网站申请
+    </text>
+    如果找不到学校发出的关于奖学金的邮件的话，可以上网搜索penn state scholarship，网址链接如下：
+
+    https://studentaid.psu.edu/apply
+
+    进入之后会有学校奖学金的详细介绍，可以仔细阅读了解自己是否符合学校奖学金申请要求。之后点击apply，会出现较为具体的奖学金申请步骤以及问题咨询。
+
+    点击FASFA，或直接搜索连接如下：
+
+    https://studentaid.ed.gov/sa/fafsa
+
+    打开之后会出现将学金申请页面，按照指导一步步自己的基本信息填写完，并将所需资料提前准备好（需要准备的资料参考方法1中提到的），填写完成提交后等待学校邮件通知结果就好。
+
+    <text class="bold">
+      【温馨提示】
+    </text>
+    一般奖学金申请最好在确定学校之后立马开始，因为一般学校奖学金会在本学期或学年开始前6个月开始颁发并且竞争激烈，所以越早申请越好。
+
+    奖学金是根据学生的成绩或经济需要，或根据具体的奖学金项目的规定，根据两者的结合而颁发的。
+
+    <text class="textSubHeader1">
+      Schreyer Honors College 荣誉学院申请
+    </text>
+    Schreyer Honors College 是学校聚集最丰富教学资源和最优秀学生的学院。 加入的学生拥有上荣誉课程、更多研究机会以及海外留学资助等福利。
+
+    荣誉学院的申请分两种：入学前和入学后。
+
+    <text class="bold">
+      1.入学前
+    </text>
+    材料：三篇文章，五道短答题（关于学生的领导经历，学术成就等），两封推荐信，高中成绩单，35刀的申请费
+
+    注意：入学前荣誉学院的申请考官不会根据学生的考试分数和高中GPA进行筛选。因此， 该学院不会对学生申请分数有限制。
+
+  </text>
+  <image src="/images/manual/beforeUS/honor/honorDDL.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+
+    <text class="bold">
+      2.入学后
+    </text>
+    1）学生必须作为全职（十二个学分以上）在该校上了至少一个学期的课程。
+
+    2）学生必须保证在四个学期内不会毕业。
+
+    3）入校以来总GPA在3.7以上。大二需保持在3.7以上，大三需保持在3.5以上。
+
+  </text>
+  <image src="/images/manual/beforeUS/honor/honorafter.png" mode="aspectFit"></image>
+  <text class="textParagraph">
+  </text>
+</view>
